@@ -4,7 +4,100 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0a079e4901.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Egypt Tours & Travel</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="G-Logo.png" alt="logo" id="logo" />
+      <div>
+        <div>Call us, we're at your service</div>
+        <div id="phone-number">1 800 676 6347</div>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Destinations <i class="fas fa-chevron-down"></i></a>
+        </li>
+        <li>
+          <a href="#">Travel Styles <i class="fas fa-chevron-down"></i></a>
+        </li>
+        <li>
+          <a href="#">Travel Deals <i class="fas fa-chevron-down"></i></a>
+        </li>
+        <li>
+          <a href="#"
+            >Travel with Confidence New <i class="fas fa-chevron-down"></i
+          ></a>
+        </li>
+      </ul>
+      <form>
+        <input type="text" placeholder="Where's your next adventure?" />
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </nav>
+    <main>
+      <section id="confidence">
+        <div>
+          <h2>Book with Confidence</h2>
+          <p>
+            Effective now until March 31, 2021, book travel with us departing
+            between January 1, 2021 and December 31, 2021, and you can cancel
+            and rebook up to 30 days prior to your departure date. Learn more
+          </p>
+        </div>
+        <div>
+          <h2>Travel with Confidence</h2>
+          <p>
+            Our new policy that outlines how we will continue to keep you safe
+            and healthy on our tours and make you feel even better about
+            choosing to travel. Learn more
+          </p>
+        </div>
+      </section>
+      <section id="hero">
+        <h1>Egypt Tours</h1>
+      </section>
+      <section id="visa-requirements">
+        <div id="visa-reqs-top">
+          <h2>Visa Requirements</h2>
+        </div>
+        <div id="visa-reqs-bottom">
+          <form id="visa-reqs-left">
+            <h3>Enter your trip details</h3>
+            <div>
+              <label for="from">Traveling from</label><br />
+              <select name="" id="from">
+                <option value="Canada">Canada</option>
+                <option value="USA">USA</option>
+              </select>
+            </div>
+            <div>
+              <label for="to">Traveling to</label><br />
+              <select name="" id="to">
+                <option value="Egypt">Egypt</option>
+              </select>
+            </div>
+            <div>
+              <label for="date">Departure date</label><br />
+              <input type="date" id="date" name="" value="02/02/2021" />
+            </div>
+            <div>
+              <label for="passport">Passport</label><br />
+              <select name="" id="passport">
+                <option value="Canada">Canada</option>
+                <option value="USA">USA</option>
+              </select>
+            </div>
+            <button type="submit" id="check">Check</button>
+          </form>
+          <div id="visa-reqs-right"></div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
