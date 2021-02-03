@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 header {
@@ -56,6 +56,7 @@ nav {
   padding: 0 2rem;
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 
 nav ul {
@@ -249,4 +250,94 @@ input[type="date"] {
 
 .fas.fa-ban {
   color: red;
+}
+
+#tour-photos-background {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+}
+
+#tour-photos {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30rem;
+}
+
+#tour-photos h2 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#photos-container {
+  background-color: white;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  position: relative;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+#photos-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#photos-flexbox img {
+  object-fit: cover;
+  height: 10rem;
+  border-radius: 0.25rem;
+}
+
+#photos-flexbox img:nth-child(1) {
+  width: 15%;
+}
+
+#photos-flexbox img:nth-child(1) {
+  width: 25%;
+}
+
+#photos-flexbox img:nth-child(2) {
+  width: 20%;
+}
+
+#photos-flexbox img:nth-child(3) {
+  flex: 1;
+}
+
+#photos-flexbox img:nth-child(4) {
+  width: 20%;
+}
+
+#photos-flexbox img:nth-child(5) {
+  flex: 1;
+}
+
+#photos-flexbox img:nth-child(6) {
+  width: 15%;
+}
+
+#photos-flexbox img:nth-child(7) {
+  flex: 1;
+}
+
+#photos-flexbox img:nth-child(8) {
+  width: 20%;
+}
+
+#photos-flexbox img:nth-child(9) {
+  width: 30%;
+}
+
+#tour-photos button {
+  background-color: rebeccapurple;
+  height: 3rem;
+  width: 100%;
+  color: white;
+  border: 0;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  border-radius: 0.25rem;
 }
