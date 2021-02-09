@@ -57,6 +57,12 @@ nav {
   position: sticky;
   top: 0;
   z-index: 2;
+  transition: top 0.4s, opacity 0.3s;
+}
+
+nav.offScreen {
+  top: -4rem;
+  opacity: 0;
 }
 
 nav ul {
